@@ -4,7 +4,7 @@
 Food prices in Nigeria have been changing quickly. I wanted to see which states are most expensive and which foods (like Milk or Meat) are rising the fastest.
 
 ## The Dashboard
-![Nigeria_Food_Prices](Food_Prices_Nigeria.png)
+![Nigeria_Food_Prices](Nigeria_Food_Prices.png)
 
 ## Key Findings 
 * **Price Spike:** Prices stayed flat for years but jumped massively after 2020.
