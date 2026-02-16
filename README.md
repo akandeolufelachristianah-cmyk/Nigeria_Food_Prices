@@ -3,6 +3,11 @@
 ## The Problem
 Food prices in Nigeria have been changing quickly. I wanted to see which states are most expensive and which foods (like Milk or Meat) are rising the fastest.
 
+## The Challenge: Messy Units
+The raw data from Kaggle was "dirty." 
+* **The Problem:** Units were inconsistent (e.g., some prices were per 'kg', others per 'bag' or 'liter').
+* **The Solution:** I used **Python (Pandas)** to standardize these units so that the "Median Price" comparison would be fair and accurate.
+
 ## The Dashboard
 ![Nigeria_Food_Prices](Nigeria_Food_Prices.png)
 
