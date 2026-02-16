@@ -1,12 +1,18 @@
 # Nigeria Food Price Analysis Dashboard 
 
-## The Problem
+## Project Overview
 Food prices in Nigeria have been changing quickly. I wanted to see which states are most expensive and which foods (like Milk or Meat) are rising the fastest.
 
-## The Challenge: Messy Units
-The raw data from Kaggle was "dirty." 
-* **The Problem:** Units were inconsistent (e.g., some prices were per 'kg', others per 'bag' or 'liter').
-* **The Solution:** I used **Python (Pandas)** to standardize these units so that the "Median Price" comparison would be fair and accurate.
+### My Workflow:
+1. **Data Cleaning (Python):** The raw Kaggle data had messy units (kgs vs bags). I used **Pandas** to standardize all units to a common metric.
+2. **Analysis:** Calculated price volatility and median costs per state.
+3. **Visualization (Power BI):** Exported the cleaned data to Power BI to create an interactive dashboard for stakeholders.
+
+## The Solution
+The most challenging part was the **unit inconsistency**. I wrote a Python script to:
+* Strip strings from unit columns.
+* Convert different measurements into a standard numeric scale.
+* Handle missing values in the "Market" column.
 
 ## The Dashboard
 ![Nigeria_Food_Prices](Nigeria_Food_Prices.png)
