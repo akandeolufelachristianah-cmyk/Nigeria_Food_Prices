@@ -1,10 +1,10 @@
 # Nigeria Food Price Analysis Dashboard 
 
 ## Project Overview
-Food prices in Nigeria have been changing quickly. I wanted to see which states are most expensive and which foods (like Milk or Meat) are rising the fastest.
+Food prices in Nigeria have been changing quickly. I wanted to see which states are most expensive and which foods are rising the fastest.
 
 ### My Workflow:
-1. **Data Cleaning (Python):** The raw Kaggle data had messy units (kgs vs bags). I used **Pandas** to standardize all units to a common metric.
+1. **Data Cleaning (Python):** The raw Kaggle data had messy units. I used **Pandas** to standardize all units to a common metric.
 2. **Analysis:** Calculated price volatility and median costs per state.
 3. **Visualization (Power BI):** Exported the cleaned data to Power BI to create an interactive dashboard for stakeholders.
 
